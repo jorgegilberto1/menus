@@ -1,6 +1,10 @@
 <?php
+require_once __DIR__ . '/../../vendor/autoload.php';
+
+use App\Controller\MenuController;
+
 $title = "Crear Nuevo Menú";
-require_once "../../controller/MenuController.php";
+
 $menuController = new MenuController();
 $menus = $menuController->listar();
 

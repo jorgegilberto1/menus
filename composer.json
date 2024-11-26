@@ -1,0 +1,21 @@
+{
+    "name": "jrgbp/menus",
+    "description": "sistema de gestion de menus",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jorge gilberto",
+            "email": "jrgbp@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11"
+    }
+}

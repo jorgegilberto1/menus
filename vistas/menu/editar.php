@@ -1,5 +1,7 @@
 <?php
-require_once "../../controller/MenuController.php";
+require_once __DIR__ . '/../../vendor/autoload.php';
+
+use App\Controller\MenuController;
 $menuController = new MenuController();
 
 // Obtener el 'id' del menú desde la URL

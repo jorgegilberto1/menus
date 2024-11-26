@@ -4,8 +4,8 @@
 session_start();
 
 // Incluir los controladores necesarios
-require_once "./controller/MenuController.php";
-
+require_once __DIR__ . './vendor/autoload.php';
+use App\Controller\MenuController;
 // Crear instancia del controlador de menús
 $menuController = new MenuController();
 
